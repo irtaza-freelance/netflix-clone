@@ -44,7 +44,7 @@ function toggleMenu(btn) {
 
 const sign = document.querySelector(".signIn");
 sign.addEventListener("click", function () {
-  window.location.href = "../html files/sign.html";
+  window.location.href = "sign.html";
 });
 
 // pehla input
@@ -68,7 +68,7 @@ function check() {
     localStorage.setItem("userEmail", mail.value);
     mail.style.border = "2px solid green";
     divele.classList.add("show");
-    window.location.href = "../html files/getstart.html";
+    window.location.href = "getstart.html";
   } else {
     return;
   }
@@ -123,7 +123,7 @@ function claim() {
     localStorage.setItem("userEmail", input.value);
     input.style.border = "2px solid green";
     divelem.classList.add("show");
-    window.location.href = "../html files/getstart.html";
+    window.location.href = "getstart.html";
   } else {
     return;
   }
