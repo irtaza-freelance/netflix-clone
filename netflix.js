@@ -163,8 +163,8 @@ function showMovie(type) {
   document.body.style.overflow = "hidden";
   if (type === "wish") {
     model.style.display = "block";
-    modalContent.style.backgroundImage = "url(../images/ifwishki.webp)";
-    img.src = "../images/ifwish.webp";
+    modalContent.style.backgroundImage = "url(images/ifwishki.webp)";
+    img.src = "images/ifwish.webp";
     badge.innerHTML = `
       <h5>
       <span class="badge text-bg-secondary">2026</span>
@@ -179,8 +179,8 @@ function showMovie(type) {
   }
   if (type === "maa") {
     model.style.display = "block";
-    modalContent.style.backgroundImage = "url(../images/mabehen.webp)";
-    img.src = "../images/bhen.webp";
+    modalContent.style.backgroundImage = "url(images/mabehen.webp)";
+    img.src = "images/bhen.webp";
     badge.innerHTML = `
       <h5>
       <span class="badge text-bg-secondary">2026</span>
@@ -195,8 +195,8 @@ function showMovie(type) {
   }
   if (type === "dhur") {
     model.style.display = "block";
-    modalContent.style.backgroundImage = "url(../images/dhur.webp)";
-    img.src = "../images/reve.webp";
+    modalContent.style.backgroundImage = "url(images/dhur.webp)";
+    img.src = "images/reve.webp";
     badge.innerHTML = `
       <h5>
       <span class="badge text-bg-secondary">2026</span>
@@ -211,8 +211,8 @@ function showMovie(type) {
   }
   if (type === "ber") {
     model.style.display = "block";
-    modalContent.style.backgroundImage = "url(../images/berlin.webp)";
-    img.src = "../images/bere.webp";
+    modalContent.style.backgroundImage = "url(images/berlin.webp)";
+    img.src = "images/bere.webp";
     badge.innerHTML = `
       <h5>
       <span class="badge text-bg-secondary">2026</span>
@@ -227,8 +227,8 @@ function showMovie(type) {
   }
   if (type === "ran") {
     model.style.display = "block";
-    modalContent.style.backgroundImage = "url(../images/der.webp)";
-    img.src = "../images/har.webp";
+    modalContent.style.backgroundImage = "url(images/der.webp)";
+    img.src = "images/har.webp";
     badge.innerHTML = `
       <h5>
       <span class="badge text-bg-secondary">2025</span>
@@ -243,8 +243,8 @@ function showMovie(type) {
   }
   if (type === "kara") {
     model.style.display = "block";
-    modalContent.style.backgroundImage = "url(../images/kar.webp)";
-    img.src = "../images/kara.webp";
+    modalContent.style.backgroundImage = "url(images/kar.webp)";
+    img.src = "images/kara.webp";
     badge.innerHTML = `
       <h5>
       <span class="badge text-bg-secondary">2026</span>
@@ -259,8 +259,8 @@ function showMovie(type) {
   }
   if (type === "hiest") {
     model.style.display = "block";
-    modalContent.style.backgroundImage = "url(../images/netfl.webp)";
-    img.src = "../images/hei.webp";
+    modalContent.style.backgroundImage = "url(images/netfl.webp)";
+    img.src = "images/hei.webp";
     badge.innerHTML = `
       <h5>
       <span class="badge text-bg-secondary">2026</span>
@@ -275,8 +275,8 @@ function showMovie(type) {
   }
   if (type === "swa") {
     model.style.display = "block";
-    modalContent.style.backgroundImage = "url(../images/swad.webp)";
-    img.src = "../images/swap.webp";
+    modalContent.style.backgroundImage = "url(images/swad.webp)";
+    img.src = "images/swap.webp";
     badge.innerHTML = `
       <h5>
       <span class="badge text-bg-secondary">2026</span>
@@ -291,8 +291,8 @@ function showMovie(type) {
   }
   if (type === "life") {
     model.style.display = "block";
-    modalContent.style.backgroundImage = "url(../images/ife.webp)";
-    img.src = "../images/lofe.webp";
+    modalContent.style.backgroundImage = "url(images/ife.webp)";
+    img.src = "images/lofe.webp";
     badge.innerHTML = `
       <h5>
       <span class="badge text-bg-secondary">2026</span>
@@ -308,8 +308,8 @@ function showMovie(type) {
 
   if (type === "er") {
     model.style.display = "block";
-    modalContent.style.backgroundImage = "url(../images/er.webp)";
-    img.src = "../images/r.webp";
+    modalContent.style.backgroundImage = "url(images/er.webp)";
+    img.src = "images/r.webp";
     badge.innerHTML = `
       <h5>
       <span class="badge text-bg-secondary">1994</span>
