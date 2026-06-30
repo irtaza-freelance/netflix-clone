@@ -1,0 +1,157 @@
+body{
+    opacity: 0;
+    animation: fadeIn 0.6s ease-in-out forwards;
+}
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+
+
+.netlixTitle {
+  text-transform: uppercase;
+  color: #e50914 !important;
+  letter-spacing: 3px;
+  font-weight: 700;
+  font-size: xx-large !important;
+}
+
+body {
+  background-image: url(../images/signbg.png);
+}
+
+hr {
+  color: darkgrey;
+  margin: 0px;
+}
+
+.section {
+  color: white;
+}
+
+.section .container {
+  justify-content: center;
+  display: grid;
+  padding: 50px 0px;
+}
+
+.input input {
+  width: 90%;
+  height: 50px;
+  border-radius: 4px;
+  background-color: rgba(22, 22, 22, 0.7);
+  border: 1px solid rgba(128, 128, 128, 0.7);
+  caret-color: white;
+  color: white;
+  position: relative;
+  padding: 12px 15px;
+  margin-bottom: 15px;
+  outline: none;
+  transition: 0.3s ease;
+}
+
+.input input::placeholder {
+  color: #aaa;
+  transition: 0.3s ease;
+}
+
+.input input:focus::placeholder {
+  transform: translateY(-15px);
+  font-size: 10px;
+  opacity: 0.5;
+}
+
+.button input {
+  width: 90%;
+  height: 45px;
+  background: red;
+  border: none;
+  color: white;
+  font-size: x-large;
+  font-weight: 700;
+  transition: background-color 0.3s ease;
+  border-radius: 4px;
+}
+
+.button input:hover {
+    background-color: #c11119;
+    color: white;
+  }
+  
+
+.button{
+    margin-bottom: 25px;
+}
+
+.dropdown{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+
+.custom-dropdown {
+    width: 200px;
+  }
+  
+  .custom-dropdown .btn {
+    width: 100%;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .icon {
+    transition: 0.3s ease;
+    font-size: 13px;
+  }
+  
+
+  .menu {
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.3s ease;
+  }
+  
+  .menu p {
+    margin: 0;
+    padding: 8px;
+    color: white;
+    text-decoration: underline;
+  }
+  
+
+  .custom-dropdown.open .menu {
+    max-height: 200px;
+  }
+  
+  .custom-dropdown.open .icon {
+    transform: rotate(180deg);
+  }
+
+  .para p{
+    color: grey;
+  }
+
+  .divelement {
+    position: relative;
+    bottom: 15px;
+  }
+  
+  .divelement.show {
+    opacity: 1;
+    visibility: visible;
+  }
