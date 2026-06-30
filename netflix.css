@@ -80,7 +80,7 @@
       rgba(0, 0, 0, 0.6) 60%,
       rgba(0, 0, 0, 0.85) 100%
     ),
-    url("../images/netflix.jpg");
+    url("images/netflix.jpg");
 
   background-size: cover;
   background-position: center;
