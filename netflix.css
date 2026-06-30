@@ -665,9 +665,6 @@ footer {
   opacity: 1;
   visibility: visible;
 }
-
-
-
 .divelemen.show {
   opacity: 1;
   visibility: visible;
@@ -685,7 +682,7 @@ footer {
   top: 2000px;
 }
 
-.divelemen::before {
+/* .divelemen::before {
   content: "";
   position: absolute;
 
@@ -698,7 +695,7 @@ footer {
   border-left: 8px solid transparent;
   border-right: 8px solid transparent;
   border-bottom: 8px solid white;
-}
+} */
 
 .msg {
   margin-bottom: 0px;
