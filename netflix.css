@@ -666,17 +666,7 @@ footer {
   visibility: visible;
 }
 
-.divelement::before {
-  content: "";
-  position: absolute;
-  top: -6px;
-  left: 20px;
-  width: 0;
-  height: 0;
-  border-left: 8px solid transparent;
-  border-right: 8px solid transparent;
-  border-bottom: 8px solid white;
-}
+
 
 .divelemen.show {
   opacity: 1;
